@@ -22,7 +22,16 @@ Data used for this analysis:Boston Airbnb Open Data from <a href='https://www.ka
 - visualization.html: an html file with the interactive plotly visualization
 - boston.jpg: picture of Boston used in the blog post
 
-### Results
+### Structure of analyzed Data
+- listings: full description of the listing
+- calendar: shows the availability of each listing for each day and a correspoonding price, when the listing is available 
+
+### cleaning steps
+- transformed columns with price to make them usable
+- transformed date columns to a DateTimeObject
+- removed outliers in the price column
+
+### General Results
 - as more BnBs became available the mean price reduced to around $180 to $200 from its global high at $280
 - the mean prices increases on Friday and Sturday
 - the most expensive neighbourhoods are Bay Village, the Leather District and South Boston Waterfront, which are up to $75-$100 more expensive than the mean price.
@@ -31,6 +40,19 @@ Data used for this analysis:Boston Airbnb Open Data from <a href='https://www.ka
 - some essential amenities like internet access, lock on bedroom door or hangers, decraese the price of a BnB. 
 - doorman and fireplace increase the price with around $20
 - most nice to have amenities won't set you back much (around $5)
+
+### Data modeling for the linear regression
+- filled missing values of possible predictors with different methods (mode, mean and random sample method)
+- identified relevnat columns which could predict price with a correlation matrix for numerical variables and boxplots for categorical values
+- transformed categorical variables to dummy variables with (k-1) to avoide multicollinearity
+- final predictors: neighbourhood, bathrooms, bedromms, guests_included, property_type, cancalation_policy, room_type, bed_type and amenities
+
+### Linear Model
+- Performace Measures:
+  - MAE: 41.75
+  - MSE: 3643.40
+  - RMSE: 60.36
+  - r_squared: 0.64
 
 ### Resources
 - https://matplotlib.org/gallery/api/two_scales.html
