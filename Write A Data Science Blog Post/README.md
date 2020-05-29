@@ -41,11 +41,15 @@ Data used for this analysis:Boston Airbnb Open Data from <a href='https://www.ka
 - doorman and fireplace increase the price with around $20
 - most nice to have amenities won't set you back much (around $5)
 
-### Data modeling for the linear regression
+### Data preparation for the linear regression
 - filled missing values of possible predictors with different methods (mode, mean and random sample method)
 - identified relevnat columns which could predict price with a correlation matrix for numerical variables and boxplots for categorical values
 - transformed categorical variables to dummy variables with (k-1) to avoide multicollinearity
+
+### Data Modeling
+- Linear Regression
 - final predictors: neighbourhood, bathrooms, bedromms, guests_included, property_type, cancalation_policy, room_type, bed_type and amenities
+- to predict price of AirBnB in Boston
 
 ### Linear Model
 - Performace Measures:
