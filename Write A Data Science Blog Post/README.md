@@ -24,10 +24,10 @@ Data used for this analysis:Boston Airbnb Open Data from <a href='https://www.ka
 
 ### Results
 - as more BnBs became available the mean price reduced to around $180 to $200 from its global high at $280
-- the eman prices increases on Friday and Sturday
+- the mean prices increases on Friday and Sturday
 - the most expensive neighbourhoods are Bay Village, the Leather District and South Boston Waterfront, which are up to $75-$100 more expensive than the mean price.
 - the cheapest neighborhoods are Mattapan, Hypde Park and Dorcheste, which are around §75 cheaper than the mean price 
-- Neighbourhood has the higest impact on price, followed by room type,number of bedrooms and anemities. Interestingly reveiw score hadn't any impact on price.
+- neighbourhood has the higest impact on price, followed by room type,number of bedrooms and anemities. Interestingly reveiw score hadn't any impact on price.
 - some essential amenities like internet access, lock on bedroom door or hangers, decraese the price of a BnB. 
 - doorman and fireplace increase the price with around $20
 - most nice to have amenities won't set you back much (around $5)
