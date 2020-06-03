@@ -4,7 +4,7 @@
 ![](boston.jpg)
 
 
-This notebook is a deliverable for the Udacity Data Scientist Nanodegree and is the basis for the blog post published on <a href='https://medium.com/@markusmller_92879/so-you-want-to-travel-to-boston-and-take-an-airbnb-here-is-what-you-need-to-know-5fb1d53961a2'>Medium</a>.
+This repo is a deliverable for the Udacity Data Scientist Nanodegree and is the basis for the blog post published on <a href='https://medium.com/@markusmller_92879/so-you-want-to-travel-to-boston-and-take-an-airbnb-here-is-what-you-need-to-know-5fb1d53961a2'>Medium</a>.
 
 Data used for this analysis:Boston Airbnb Open Data from <a href='https://www.kaggle.com/airbnb/boston'>Kaggle</a>
 
