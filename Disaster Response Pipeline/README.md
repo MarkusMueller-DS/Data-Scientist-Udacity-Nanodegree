@@ -35,12 +35,34 @@ Run ML Pipeline with:
 python ./models/train_classifier.py ./data/DisasterResponse.db ./data/classifier.pkl
 ```
 
+### Cleaning steps
+- joining messages and categories datasets
+- create columns for each individual category
+- removed `child_alone` category since ther were only zeros -> no value for the classification
+- replaced twos with ones in the `related` category
+
+### Modeling process
+- tested RandomForestClassifier as part of MultiOutputClassifier with Gridserach:
+  - n_estimators: [50, 100] 
+  - min_samples_split: [2, 4],
+  - criterion: ['entropy', 'gini']
+- tested LogisticRegression as part of MultiOutputClassifier with Gridserach:
+  - C: [0.01, 0.1, 1, 10, 100]
+  - solver: ['saga', 'lbfgs']
+LogisticRegression with C=10 and solver='saga' produced the highest scores and was therefore used as the classifier.
+
 ### Libraries
 - numpy
 - pandas
 - sklearn
 - nltk
 
+### Limitations
+As you see in the screenshots of the web app the categories are very unequal in terms of thier frequencies in the messages. This baised the classifier, because it learns not to assign rare categories since it trys to minimize misclassifications. A possible solution is to implement sufficient upsempling techniques to make the rare categories more frequent. But this is beyond the scope of the project. 
+
 ### Screenshots
 
+![Screenshot1](Screenshot1.png)
+![Screenshot2](Screenshot2.png)
+![Screenshot3](Screenshot3.png)
 
