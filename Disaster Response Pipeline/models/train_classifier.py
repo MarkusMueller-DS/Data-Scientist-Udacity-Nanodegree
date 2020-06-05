@@ -118,11 +118,17 @@ def build_model():
 
 def evaluate_model(model, X_test, y_test, category_names):
     '''
+    function makes prediction on thx X_test set and prints the classification report for each category    
+
+
     Input
         model: ML model
         X_test: massages to make predictions
         y_test: true categories for y
         category_names: name of the categories
+
+    Returns
+        None
     '''
 
 
