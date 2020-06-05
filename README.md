@@ -7,5 +7,6 @@ This repo contains the projects from the Udacity Data Scientist Nanodegree
 
 #### Project 2: Disaster Respone Pipeline (WIP)
 - Link to the <a href='https://github.com/Markinger7/Data-Scientist-Udacity-Nanodegree/tree/master/Disaster%20Response%20Pipeline'>Repo</a>
-- ETL Pipeline
-- ML Pipeline
+- created a ETL Pipeline
+- created ML Pipeline
+- delpyed the ML model in a flask web app to classify messages 
