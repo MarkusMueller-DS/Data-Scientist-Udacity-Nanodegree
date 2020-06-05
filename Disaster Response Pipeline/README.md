@@ -30,7 +30,7 @@ Run ETL Pipeline with:
 ```
 python ./data/process_data.py ./data/messages.csv ./data/categories.csv ./data/DisasterResponse.db
 ```
-Run ML Pipeline wi
+Run ML Pipeline with:
 ```
 python ./models/train_classifier.py ./data/DisasterResponse.db ./data/classifier.pkl
 ```
@@ -40,5 +40,7 @@ python ./models/train_classifier.py ./data/DisasterResponse.db ./data/classifier
 - pandas
 - sklearn
 - nltk
+
+### Screenshots
 
 
