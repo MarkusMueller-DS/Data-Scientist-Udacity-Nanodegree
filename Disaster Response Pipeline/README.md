@@ -17,6 +17,9 @@ The different steps of this project are split across three folders:
 - app
   - run.py (script that runs the Flask web app)
   - templates
+- notebooks (notebooks to prepare for the pipelines)
+  - ETL Pipeline Preparation.ipynb
+  - ML Pipeline Preparation.ipynb
 
 ### How to run
 You can directly run the flask web app with the following command (make sure you set 'app' as your working directory):
