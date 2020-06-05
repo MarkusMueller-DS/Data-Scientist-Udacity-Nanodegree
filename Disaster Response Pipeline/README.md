@@ -25,7 +25,7 @@ python run.py
 ```
 and than go to to http://0.0.0.0:3001/
 
-IF you want to make some adjustments in the ETL process or change the ML alogorithm than you need to run these commands first before launching the flask web app
+If you want to make some adjustments in the ETL process or change the ML alogorithm than you need to run these commands first before launching the flask web app
 Run ETL Pipeline with:
 ```
 python ./data/process_data.py ./data/messages.csv ./data/categories.csv ./data/DisasterResponse.db
@@ -49,7 +49,8 @@ python ./models/train_classifier.py ./data/DisasterResponse.db ./data/classifier
 - tested LogisticRegression as part of MultiOutputClassifier with Gridserach:
   - C: [0.01, 0.1, 1, 10, 100]
   - solver: ['saga', 'lbfgs']
-LogisticRegression with C=10 and solver='saga' produced the highest scores and was therefore used as the classifier.
+
+<b>LogisticRegression with C=10 and solver='saga' produced the highest scores and was therefore used as the classifier.</b>
 
 ### Libraries
 - numpy
