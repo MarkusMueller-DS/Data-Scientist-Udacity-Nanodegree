@@ -2,7 +2,7 @@
 ##### by Markus Müller
 
 ### Motivation
-This project is part of the Udacity Data Scientist Nanodegree.  The goal is create different kinds of recommendations models to recommend users from the IBM Watson platform new articles.
+This project is part of the Udacity Data Scientist Nanodegree.  The goal is create different kinds of recommendations models to recommend new articles for users of the IBM Watson platform.
 
 ### Files
 - data: contains the datasets
