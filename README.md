@@ -20,6 +20,6 @@ This repo contains the projects from the Udacity Data Scientist Nanodegree
 
 #### Capstone Project: Create a Customer Segmentation Report for Arvato Financial Services
 - Link to <a href='https://github.com/Markinger7/Data-Scientist-Udacity-Nanodegree/tree/master/Capstone%20Project'>Repo</a>
-- cleaned and combinded big datasets (>1GB)
+- Cleaned and combinded big datasets (>1GB)
 - Used a unsupervised learning algorithm (Kmeans) to describe the relationship between customers and the general population
 - Used different supervised learning algorithms to predict if an individual became a customer
