@@ -24,3 +24,6 @@ This repo contains the projects from the Udacity Data Scientist Nanodegree
 - Cleaned and combined big datasets (>1GB)
 - Used a unsupervised learning algorithm (Kmeans) to describe the relationship between customers and the general population
 - Used different supervised learning algorithms to predict if an individual became a customer
+
+
+![](Certificate.jpg)
