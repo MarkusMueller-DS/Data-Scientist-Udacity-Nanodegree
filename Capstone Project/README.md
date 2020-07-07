@@ -2,7 +2,7 @@
 ##### by Markus Müller
 
 This is the last project from the Udacity Data Scientist Nanodegree.
-The first goal of this project is to perform an unsupervised learning algorithm to uncover differences between customers and the general population. The second goal was to perform a supervised learning algorithm to predict if an individual became a customer and the last goal was to use this trained model to predict on unseen data and upload the results to Kaggle.
+The first goal of this project is to perform an unsupervised learning algorithm to uncover differences between customers and the general population. The second goal was to perform a supervised learning algorithm to predict if an individual became a customer and the last goal was to use the trained model to predict on unseen data and upload the results to Kaggle.
 
 Link to <a href='https://medium.com/@markusmller_92879/udacity-data-scientist-nanodegree-capstone-project-using-unsupervised-and-supervised-algorithms-c1740532820a'>Medium article</a> 
 
