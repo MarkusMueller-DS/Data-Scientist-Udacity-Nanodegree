@@ -16,7 +16,7 @@ Link to <a href='https://medium.com/@markusmller_92879/udacity-data-scientist-na
 3. Part 2: Supervised Learning Model
     - Tested different binary classification alforithms 
     - Hyperparameter tuning
-    - final model= GradientBoostingClassifier()
+    - final model= GradientBoostingClassifier
 4. Part 3: Kaggle Competition
     - used final model to make predictions
     - uploaded prediction to Kaggle
