@@ -24,7 +24,7 @@ Link to <a href='https://medium.com/@markusmller_92879/udacity-data-scientist-na
 ### Limitations
 My final score is compared to others on Kaggle relatively low. I looked at a few other notebooks on github to get an idea why. It seems that my approach, to only keep the columns that are in the dataset and in the excel file is quite unique. To recap, I dropped 94 columns that weren't in both files, with the idea that I can only use attributes for which I have the description. After the analysis I inspected the excel file and noticed that some Attributes are just spelled differently between the excel file and the dataset. So, all in all I probably dropped some columns that meight would increase my score.
 
-Another thing that I noticed is that I dropped rows in the supervised learning part. Which is debatable because the variable of interest is to highly imbalanced and one can argue that it would be better to keep rows with missing values, so that there is a higher chance for the imbalanced value to appear.
+Another thing that I noticed is that I dropped rows in the supervised learning part. Which is debatable because the variable of interest is highly imbalanced and one can argue that it would be better to keep rows with missing values, so that there is a higher chance for the imbalanced value to appear.
 
 #### All in all, here are some things that could be checked to enhance the final score:
 - get a better understanding of the attributes and check if you can use more attributes without dropping them (keep attributes with more than 10 items)
