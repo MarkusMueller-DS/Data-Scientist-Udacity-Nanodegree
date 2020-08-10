@@ -11,7 +11,7 @@ This project is part of the Udacity Data Scientist Nanodegree.  The goal is crea
 
 ### Content of Notebook
 - Exploratory Data Analysis
-  - Visual and descriptive statistics to get an understamding of the dataset
+  - Visual and descriptive statistics to get an understanding of the dataset
 - Rank Based Recommendations
   - Recommendation model that returns the top n articles
 - User-User Based Collaborative Filtering
